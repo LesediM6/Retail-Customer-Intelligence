@@ -26,6 +26,7 @@ How does a business like FNB differentiate between casual shoppers and high-valu
 ### 4. Visualization
 - **File:** `visualize_customers.py`
 - **Output:** Generated a professional bar chart (`customer_segments_report.png`) using Seaborn and Matplotlib to show the health of the loyalty program.
+![Customer Segments Report](customer_segments_report.png)
 
 ## 📈 Key Insights & Results
 - **Data Sanitization:** Successfully cleaned the raw dataset of missing values.
