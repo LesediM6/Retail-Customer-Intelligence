@@ -13,7 +13,7 @@ def generate_mock_data(records=50000):
     data = []
     for i in range(records):
         prod = random.choice(list(products.keys()))
-        qty = random.randint(1, 5)
+        qty = random.randint(1, 2)
         # Randomly leave some emails empty (None) to simulate human error
         email = f"user_{random.randint(100, 999)}@example.com" if random.random() > 0.05 else None
         

@@ -25,8 +25,8 @@ def process_retail_data():
 
     # 5. Business Logic: Loyalty Tiers
     def assign_tier(spend):
-        if spend > 50000: return 'Gold (VIP)'
-        if spend > 20000: return 'Silver'
+        if spend > 450000: return 'Gold (VIP)'
+        if spend > 300000: return 'Silver'
         return 'Bronze'
 
     customer_stats['tier'] = customer_stats['total_revenue'].apply(assign_tier)
